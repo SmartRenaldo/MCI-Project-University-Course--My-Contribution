@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "2e5675ab-df80-43bd-924a-36aedb34452b",
+		"name": "Mark",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mark\": 3,\r\n    \"paragraphNum\": 2,\r\n    \"userId\": 1,\r\n    \"aspectId\": 2,\r\n    \"summaryId\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/marks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"marks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getByCondition",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/marks?paragraphNum=4&summaryId=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"marks"
+					],
+					"query": [
+						{
+							"key": "paragraphNum",
+							"value": "4"
+						},
+						{
+							"key": "summaryId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAvgMarkOfUserId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/marks/avg_userid",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"marks",
+						"avg_userid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAvgMarkOfUserIdAndParagraphNum",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/marks/avg_userid_paranum",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"marks",
+						"avg_userid_paranum"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAvgMarkOfUserIdParagraphNumBySummaryId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/marks/avg_userid_paranum/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"marks",
+						"avg_userid_paranum",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getHighestMarks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/marks/highest_marks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"marks",
+						"highest_marks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getLowestMarks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/marks/lowest_marks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"marks",
+						"lowest_marks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getVoteData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/marks/getVoteData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"marks",
+						"getVoteData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/marks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"marks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteAll",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/marks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"marks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteCurrentForAllUsers",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mark\": 5,\r\n    \"paragraphNum\": 2,\r\n    \"userId\": 2,\r\n    \"aspectId\": 3,\r\n    \"summaryId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/marks/current_all_users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"marks",
+						"current_all_users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

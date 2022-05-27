@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9c8e30e-9bfb-4cea-aebf-13b50e7e7132" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\maven repository" />
+        <option name="mavenHome" value="D:\maven\apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="29NUQojtCQdBjGEkWG9NGhXpf6v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index2.html">
+    <configuration name="MarkMapperTests.testDeleteForAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project_back_end" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.awesome.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.awesome.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.mapper.MarkMapperTests" />
+      <option name="METHOD_NAME" value="testDeleteForAllUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarkMapperTests.testSelectAvgMarkOfUserIdBySummaryId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project_back_end" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.awesome.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.awesome.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.mapper.MarkMapperTests" />
+      <option name="METHOD_NAME" value="testSelectAvgMarkOfUserIdBySummaryId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarkMapperTests.testSelectVoteData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project_back_end" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.awesome.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.awesome.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.mapper.MarkMapperTests" />
+      <option name="METHOD_NAME" value="testSelectVoteData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarkMapperTests.testUpdateMark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project_back_end" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.awesome.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.awesome.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.mapper.MarkMapperTests" />
+      <option name="METHOD_NAME" value="testUpdateMark" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project_back_end/static/index2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ProjectBackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="project_back_end" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.awesome.ProjectBackEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index2.html" />
+        <item itemvalue="JUnit.MarkMapperTests.testDeleteForAllUsers" />
+        <item itemvalue="JUnit.MarkMapperTests.testUpdateMark" />
+        <item itemvalue="JUnit.MarkMapperTests.testSelectAvgMarkOfUserIdBySummaryId" />
+        <item itemvalue="JUnit.MarkMapperTests.testSelectVoteData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9c8e30e-9bfb-4cea-aebf-13b50e7e7132" name="Default Changelist" comment="" />
+      <created>1652953024675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652953024675</updated>
+      <workItem from="1652953028575" duration="16317000" />
+      <workItem from="1653037337455" duration="565000" />
+      <workItem from="1653136421680" duration="3858000" />
+      <workItem from="1653230420804" duration="703000" />
+      <workItem from="1653274218879" duration="202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="text" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

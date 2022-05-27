@@ -1,0 +1,15 @@
+server:
+  port: 80
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6494108?characterEncoding=UTF-8
+      username: sql6494108
+      password: CiwswNbfMb
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

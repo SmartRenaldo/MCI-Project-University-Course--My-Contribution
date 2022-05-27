@@ -1,0 +1,4 @@
+com\awesome\service\MarkServiceTests.class
+com\awesome\mapper\AspectMapperTests.class
+com\awesome\mapper\MarkMapperTests.class
+com\awesome\service\AspectServiceTests.class

@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "0891dc86-a1bb-47ff-8b2c-49ab8514627c",
+		"name": "Aspect",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "saveAll",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/aspects",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"aspects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAll",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteAll",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
